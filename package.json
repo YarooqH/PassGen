@@ -1,6 +1,6 @@
 {
   "name": "ourpassgen-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI tool to generate secure random passwords and copy them to clipboard",
   "main": "dist/passgen.js",
   "types": "dist/passgen.d.ts",
