@@ -1,0 +1,46 @@
+{
+  "name": "passgen-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to generate secure random passwords and copy them to clipboard",
+  "main": "dist/passgen.js",
+  "types": "dist/passgen.d.ts",
+  "bin": {
+    "passgen": "./bin/passgen.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node bin/passgen.js",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "password",
+    "generator",
+    "cli",
+    "security",
+    "random",
+    "clipboard"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "homepage": "https://github.com/yourusername/passgen-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/passgen-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/passgen-cli/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "clipboardy": "^3.0.0",
+    "commander": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "typescript": "^5.2.0"
+  }
+}
