@@ -74,7 +74,7 @@ async function copyToClipboard(text) {
 
 // Configure CLI program
 program
-  .name('passgen')
+  .name('ourpassgen')
   .description('Generate secure random passwords and copy them to clipboard')
   .version('1.0.0');
 

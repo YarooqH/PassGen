@@ -1,4 +1,4 @@
-# PassGen CLI
+# OurPassGen CLI
 
 A secure, customizable password generator CLI tool that generates random passwords and automatically copies them to your clipboard.
 
@@ -16,13 +16,13 @@ A secure, customizable password generator CLI tool that generates random passwor
 ### Global Installation
 
 ```bash
-npm install -g passgen-cli-qray
+npm install -g ourpassgen-cli
 ```
 
 ### Using npx (No Installation Required)
 
 ```bash
-npx passgen-cli-qray
+npx ourpassgen-cli
 ```
 
 ## Usage
@@ -32,15 +32,15 @@ npx passgen-cli-qray
 Generate a default 16-character password and copy to clipboard:
 
 ```bash
-passgen
+ourpassgen
 # or
-npx passgen-cli-qray
+npx ourpassgen-cli
 ```
 
 ### Command Options
 
 ```bash
-passgen [options] [command]
+ourpassgen [options] [command]
 ```
 
 #### Options
@@ -59,19 +59,19 @@ passgen [options] [command]
 
 ```bash
 # Generate a 12-character password (includes symbols by default)
-passgen -l 12
+ourpassgen -l 12
 
 # Generate a password without symbols
-passgen --no-symbols
+ourpassgen --no-symbols
 
 # Generate a password without ambiguous characters
-passgen -x
+ourpassgen -x
 
 # Generate a password and display it (don't copy to clipboard)
-passgen --no-copy
+ourpassgen --no-copy
 
 # Generate a password with only lowercase and numbers
-passgen --no-uppercase --no-symbols
+ourpassgen --no-uppercase --no-symbols
 ```
 
 ### Preset Commands
@@ -80,28 +80,28 @@ passgen --no-uppercase --no-symbols
 Generate a simple password with letters, numbers, and symbols (no ambiguous characters):
 
 ```bash
-passgen simple
-passgen simple -l 10  # Custom length
-passgen simple --no-clipboard  # Don't copy to clipboard
+ourpassgen simple
+ourpassgen simple -l 10  # Custom length
+ourpassgen simple --no-clipboard  # Don't copy to clipboard
 ```
 
 #### Strong Password
-Generate a strong password with all character types including symbols:
+Generate a strong password with all character types (default: 20 characters):
 
 ```bash
-passgen strong
-passgen strong -l 24  # Custom length (default: 20)
-passgen strong --no-clipboard  # Don't copy to clipboard
+ourpassgen strong
+ourpassgen strong -l 24  # Custom length (default: 20)
+ourpassgen strong --no-clipboard  # Don't copy to clipboard
 ```
 
 #### PIN Generation
-Generate a numeric PIN:
+Generate a numeric PIN (default: 6 digits):
 
 ```bash
-passgen pin
-passgen pin -l 4   # 4-digit PIN
-passgen pin -l 8   # 8-digit PIN
-passgen pin --no-clipboard  # Don't copy to clipboard
+ourpassgen pin
+ourpassgen pin -l 4   # 4-digit PIN
+ourpassgen pin -l 8   # 8-digit PIN
+ourpassgen pin --no-clipboard  # Don't copy to clipboard
 ```
 
 ## Character Sets
@@ -127,12 +127,12 @@ This tool uses Node.js's built-in `crypto.getRandomValues()` function to ensure 
 1. Clone the repository
 2. Install dependencies: `npm install`
 3. Link for local testing: `npm link`
-4. Test the CLI: `passgen --help`
+4. Test the CLI: `ourpassgen --help`
 
 ### Project Structure
 
 ```
-passgen-cli-qray/
+ourpassgen-cli/
 ├── bin/
 │   └── passgen.js      # Main CLI script
 ├── package.json        # Package configuration

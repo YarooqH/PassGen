@@ -5,7 +5,7 @@
   "main": "dist/passgen.js",
   "types": "dist/passgen.d.ts",
   "bin": {
-    "passgen": "./bin/passgen.js"
+    "ourpassgen": "./bin/passgen.js"
   },
   "scripts": {
     "build": "tsc",
@@ -29,13 +29,13 @@
     "clipboard"
   ],
   "author": "YarooqH <yarooq1@gmail.com>",
-  "homepage": "https://github.com/YarooqH/PassGen#readme",
+  "homepage": "https://github.com/YarooqH/OurPassGen#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YarooqH/PassGen.git"
+    "url": "git+https://github.com/YarooqH/OurPassGen.git"
   },
   "bugs": {
-    "url": "https://github.com/YarooqH/PassGen/issues"
+    "url": "https://github.com/YarooqH/OurPassGen/issues"
   },
   "license": "MIT",
   "engines": {
