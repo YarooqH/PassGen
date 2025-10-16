@@ -1,5 +1,5 @@
 {
-  "name": "passgen-cli",
+  "name": "ourpassgen-cli",
   "version": "1.0.0",
   "description": "A CLI tool to generate secure random passwords and copy them to clipboard",
   "main": "dist/passgen.js",
@@ -14,6 +14,12 @@
     "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "dist",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
   "keywords": [
     "password",
     "generator",

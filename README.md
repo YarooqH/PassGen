@@ -16,13 +16,13 @@ A secure, customizable password generator CLI tool that generates random passwor
 ### Global Installation
 
 ```bash
-npm install -g passgen-cli
+npm install -g passgen-cli-qray
 ```
 
 ### Using npx (No Installation Required)
 
 ```bash
-npx passgen-cli
+npx passgen-cli-qray
 ```
 
 ## Usage
@@ -34,7 +34,7 @@ Generate a default 16-character password and copy to clipboard:
 ```bash
 passgen
 # or
-npx passgen-cli
+npx passgen-cli-qray
 ```
 
 ### Command Options
@@ -132,7 +132,7 @@ This tool uses Node.js's built-in `crypto.getRandomValues()` function to ensure 
 ### Project Structure
 
 ```
-passgen-cli/
+passgen-cli-qray/
 ├── bin/
 │   └── passgen.js      # Main CLI script
 ├── package.json        # Package configuration
