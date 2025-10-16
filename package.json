@@ -22,14 +22,14 @@
     "random",
     "clipboard"
   ],
-  "author": "Your Name <your.email@example.com>",
-  "homepage": "https://github.com/yourusername/passgen-cli#readme",
+  "author": "YarooqH <yarooq1@gmail.com>",
+  "homepage": "https://github.com/YarooqH/PassGen#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/passgen-cli.git"
+    "url": "git+https://github.com/YarooqH/PassGen.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/passgen-cli/issues"
+    "url": "https://github.com/YarooqH/PassGen/issues"
   },
   "license": "MIT",
   "engines": {
